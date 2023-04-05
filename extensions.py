@@ -46,7 +46,7 @@ def convert(message: telebot.types.Message):
        
 @bot.message_handler()
 def foo(message: telebot.types.Message):
-    bot.send_message(message.chat.id, 'text ldimir elensky')
+    bot.send_message(message.chat.id, 'hello')
 
 print('starting...')
 bot.polling()
